@@ -1,16 +1,12 @@
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
-import Home from 'component/Home'
+import UseState from 'component/useState';
+import UseInput from 'component/useInput';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path='/'>
-          <h1>REACT Default Project</h1>
-          <Home />
-        </Route>
-      </Switch>
-    </Router>
+    <div>
+      <div><UseState /></div>
+      <div><UseInput /></div>
+    </div>
   );
 }
 

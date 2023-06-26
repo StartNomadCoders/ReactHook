@@ -1,7 +1,7 @@
 
 {
   "compilerOptions": {
-  "target": "ES6",
+  "target": "es5",
     "module": "esnext",
     "baseUrl": "src",
     "moduleResolution": "node",

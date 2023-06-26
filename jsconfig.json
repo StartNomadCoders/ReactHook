@@ -1,4 +1,3 @@
-
 {
   "compilerOptions": {
   "target": "es5",
@@ -6,15 +5,14 @@
     "baseUrl": "src",
     "moduleResolution": "node",
     "paths": {
-      "@/*": ["./*"],
-      "@component/*": ["src/component/*"]
+      "@/" : [ "./"]
+    }
   },
   "lib": [
     "esnext",
     "dom",
     "dom.iterable",
     "scripthost"
-  ]
-},
+  ],
   "include": ["src"]
 }

@@ -5,6 +5,7 @@ import UseEffect from 'component/useEffect';
 import UseTitle from 'component/useTitle';
 import UseClick from 'component/useClick';
 import UseConfirm from 'component/useConfirm & usePreventLeave';
+import UseBeforeLeave from 'component/useBeforeLeave';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         {/*<UseTitle />*/}
         {/*<UseClick/>*/}
         {<UseConfirm/>}
+        <UseBeforeLeave/>
       </div>
     </div>
   );

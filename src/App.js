@@ -4,6 +4,8 @@ import UseTaps from 'component/useTaps';
 import UseEffect from 'component/useEffect';
 import UseTitle from 'component/useTitle';
 import UseClick from 'component/useClick';
+import UseConfirm from 'component/useConfirm & usePreventLeave';
+
 
 function App() {
   return (
@@ -15,8 +17,9 @@ function App() {
       {/*  <UseEffect />*/}
       {/*</div>*/}
       <div>
-        <UseTitle />
-        <UseClick/>
+        {/*<UseTitle />*/}
+        {/*<UseClick/>*/}
+        {<UseConfirm/>}
       </div>
     </div>
   );

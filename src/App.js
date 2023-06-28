@@ -6,6 +6,7 @@ import UseTitle from 'component/useTitle';
 import UseClick from 'component/useClick';
 import UseConfirm from 'component/useConfirm & usePreventLeave';
 import UseBeforeLeave from 'component/useBeforeLeave';
+import UseFadein from 'component/useFadeln & useNetwork';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         {/*<UseClick/>*/}
         {<UseConfirm/>}
         <UseBeforeLeave/>
+        {<UseFadein/>}
       </div>
     </div>
   );
